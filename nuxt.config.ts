@@ -4,5 +4,8 @@ export default defineNuxtConfig({
   routeRules: {
     "/about": { static: true },
     "/posts/**": { swr: true },
+    "/static": { static: true },
+    "/spa": { ssr: false },
+    "/swr": { swr: true },
   },
 });
