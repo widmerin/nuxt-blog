@@ -1,6 +1,9 @@
 <template>
   <div>
     <h1>swr</h1>
-    <p>{{ new Date() }}</p>
+    <p>{{ time.currentDateTime }}</p>
   </div>
 </template>
+<script setup lang="ts">
+  const {data: time} = await useFetch('/api/time')
+</script>
