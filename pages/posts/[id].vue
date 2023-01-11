@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>{{  post.title }}</h1>
-    <span>{{ time.currentDateTime }}</span>
+    <span>{{ new Date() }}</span>
     <article>
       <p>{{  post.body }}</p>
     </article>
