@@ -1,6 +1,8 @@
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   routeRules: {
-    '/**': { swr: 25 }
-  }
-})
+    "/about": { static: true },
+    "/**": { swr: 30 },
+  },
+});
