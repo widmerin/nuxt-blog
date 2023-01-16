@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     }
   },
   experimental: {
-    payloadExtraction: true,
+    payloadExtraction: false,
   },
   routeRules: {
     '/**': { cache: { swr: true, maxAge: 120, staleMaxAge: 60, headersOnly: true } },
