@@ -5,7 +5,7 @@
     <article v-for="post in posts" :key="post.id">
       <heading><strong>{{ post.title }}</strong></heading>
       <p>{{ post.body }}</p>
-      <NuxtLink :to="`/posts/${post.id}`">Read more &raquo;</NuxtLink>
+      <NuxtLink :to="`/posts/${post.id}/`">Read more &raquo;</NuxtLink>
     </article>
   </div>
 </template>
