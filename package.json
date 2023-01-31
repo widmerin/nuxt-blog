@@ -9,6 +9,6 @@
   },
   "devDependencies": {
     "@picocss/pico": "^1.5.6",
-    "nuxt": "3.0.0"
+    "nuxt": "^3.1.1"
   }
 }
