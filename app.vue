@@ -6,9 +6,6 @@
           <NuxtLink to="/">Home</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/about/">About</NuxtLink>
-        </li>
-        <li>
           <NuxtLink to="/posts/1/">Article 1</NuxtLink>
         </li>
         <li>
@@ -16,6 +13,15 @@
         </li>
         <li>
           <NuxtLink to="/posts/3/">Article 3</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/prerendered">prerendered</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/dynamic">dynamic</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/static">static</NuxtLink>
         </li>
       </ul>
     </nav>
