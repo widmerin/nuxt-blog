@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   routeRules: {
     // revalidated every 30 seconds, in the background
-    "/**": { swr: 30 },
+    "/**": { static: true },
     // this page will be always fresh
     "/dynamic": { swr: false, cache: false },
     // this page will be generated on demand and then cached permanently
@@ -12,6 +12,9 @@ export default defineNuxtConfig({
     "/redirect": { redirect: "/static" },
     "/headers": { headers: { "x-magic-of": "nuxt and vercel" } },
     "/spa": { ssr: false },
+  },
+  experimental: {
+    payloadExtraction: true
   },
   runtimeConfig: {
     nitro: { envPrefix: "VERCEL_" },
