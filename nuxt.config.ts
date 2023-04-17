@@ -16,8 +16,7 @@ export default defineNuxtConfig({
   experimental: {
     payloadExtraction: true
   },
-  runtimeConfig: {
-    nitro: { envPrefix: "VERCEL_" },
-    region: process.env.VERCEL_REGION,
+  nitro: {
+    preset: "vercel-edge",
   },
 });

@@ -6,23 +6,15 @@
           <NuxtLink to="/">Home</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/posts/1/">Article 1</NuxtLink>
+         <NuxtLink to="/test1">test 1</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/posts/2/">Article 2</NuxtLink>
+         <NuxtLink to="/test2">test 2</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/posts/3/">Article 3</NuxtLink>
+          <NuxtLink to="/test3">test 3</NuxtLink>
         </li>
-        <li>
-          <NuxtLink to="/prerendered">prerendered</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/dynamic">dynamic</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/static">static</NuxtLink>
-        </li>
+
       </ul>
     </nav>
     <div><NuxtPage /></div>
