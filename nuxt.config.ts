@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   //   },
   // },
   routeRules: {
-    "/**": { swr: true },
+    "/**": { swr: 20 },
   },
   experimental: {
     payloadExtraction: true,
