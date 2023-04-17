@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     "/spa": { ssr: false },
   },
   experimental: {
-    payloadExtraction: false
+    payloadExtraction: true
   },
   nitro: {
     preset: "vercel-edge",
