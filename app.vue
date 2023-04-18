@@ -3,16 +3,16 @@
     <nav>
       <ul>
         <li>
-          <NuxtLink to="/">Home</NuxtLink>
+          <NuxtLink href="/">Home</NuxtLink>
         </li>
         <li>
-         <NuxtLink to="/test1">test 1</NuxtLink>
+         <NuxtLink href="/test1">test 1</NuxtLink>
         </li>
         <li>
-         <NuxtLink to="/test2">test 2</NuxtLink>
+         <NuxtLink href="/test2">test 2</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/test3">test 3</NuxtLink>
+          <NuxtLink href="/static">static</NuxtLink>
         </li>
 
       </ul>
